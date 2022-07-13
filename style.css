@@ -1,14 +1,14 @@
 body 
 {
-    background-color: black;
-    color: white;
+    background-color: #1F271B;
+    color: #F3FCF0;
     font-family: Helvetica;
     margin: 0;
 }
 
 strong
 {
-    background-color: pink;
+    background-color: #FFD23F;
     color: black;
 }
 
@@ -17,7 +17,7 @@ div.title
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(31, 31, 31);
+    background-color: #540D6E;
 }
 
 section
@@ -28,11 +28,32 @@ section
     left: 10%;
     margin-top: 2%;
     align-items: center;
-    background-color: rgb(70, 155, 155);
-    border-style: dashed;  
+    background-color: #FFD23F;
     border-radius: 10px;
     padding: 2%;
     max-width: 80%;
+    color: black;
+}
 
-    border-color: aqua;
+div.footer
+{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: absolute;
+    bottom: 0%;
+    background-color: violet;
+    z-index: -1;
+}
+
+a
+{
+    color: #1F271B;
+    font-style: oblique;
+
+}
+
+a:visited
+{
+    color: #1F271B;
 }
