@@ -15,6 +15,7 @@ body
     background: linear-gradient(170deg, rgba(32,0,36,1) 0%, rgba(55,44,133,1) 35%, rgba(0,255,132,1) 100%);
 }
 
+
 strong
 {
     background-color: #FFD23F;
@@ -30,26 +31,28 @@ div.title
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.134);
     /* offset-x | offset-y | blur-radius | color */
     box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.485);
-    
+}
+
+div.foo
+{
+    display: flex;
+    justify-content: center;
 }
 
 section.respuesta
 {
-    display: flex;
-    flex-direction: column;
+    text-align: center;
     position: relative;
-    left: 10%;
     margin-top: 2%;
-    align-items: center;
     background-color: #FFD23F;
     border-radius: 10px;
     padding: 2%;
-    max-width: 80%;
     color: black;
     z-index: -1;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.086);
     /* offset-x | offset-y | blur-radius | color */
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.485);
+    border-color: red;
 }
 
 div.footer
@@ -88,8 +91,6 @@ section.gif
 div.gif
 {
     display: flex;
-    /* position: absolute;
-    left: 25%; */
     background-color: #FFD23F;
     justify-content: center;
     margin-top: 5%;
