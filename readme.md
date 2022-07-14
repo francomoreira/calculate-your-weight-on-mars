@@ -8,5 +8,5 @@ La idea del siguiente trabajo es poder mostrar como trabaja JS del lado del nave
 
 Link 🔽
 
-[Calculate your weight on mars](https://francomoreira-35731.netlify.app/)
+[Calculate your weight on mars or jupiter](https://francomoreira-35731.netlify.app/)
 
